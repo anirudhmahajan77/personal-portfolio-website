@@ -8,7 +8,7 @@ class About extends React.Component {
             <div className="aboutHolder">
                 <div className="aboutData">
                     <div>
-                        <h2 className="aboutHeadline">Fun facts about myself</h2>
+                        <h2 className="aboutHeadline">Fun facts about me</h2>
                     </div>
                     <div>
                         <p className="aboutDescription">I live for food. My favorite number is 77. A huge fan of Basketball and I play video games like its my life.
