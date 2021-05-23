@@ -70,7 +70,7 @@ class Education extends React.Component {
                         </TimelineItem>
                         <TimelineItem>
                             <TimelineOppositeContent>
-                                <Typography color="textSecondary">2016-2018</Typography>
+                                <Typography color="textSecondary">2018</Typography>
                             </TimelineOppositeContent>
                             <TimelineSeparator>
                                 <TimelineDot variant="outlined" color=""/>
