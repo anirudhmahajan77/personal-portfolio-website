@@ -50,7 +50,7 @@ class Skills extends React.Component {
         return (
             <div className="skillSection">
                 <div className="skillTitle">
-                    <h2>My Skills &amp; Abilities</h2>
+                    <p>My Skills &amp; Abilities</p>
                 </div>
                 <div className="skillHolder">
                     <div className="skills">
