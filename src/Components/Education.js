@@ -22,7 +22,7 @@ class Education extends React.Component {
                                 <Typography color="textSecondary">2021-2023</Typography>
                             </TimelineOppositeContent>
                             <TimelineSeparator>
-                                <TimelineDot variant="outlined" color=""/>
+                                <TimelineDot variant="outlined"/>
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
@@ -39,7 +39,7 @@ class Education extends React.Component {
                                 <Typography color="textSecondary">2019-2020</Typography>
                             </TimelineOppositeContent>
                             <TimelineSeparator>
-                                <TimelineDot variant="outlined" color=""/>
+                                <TimelineDot variant="outlined"/>
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
@@ -56,7 +56,7 @@ class Education extends React.Component {
                                 <Typography color="textSecondary">2018-2021</Typography>
                             </TimelineOppositeContent>
                             <TimelineSeparator>
-                                <TimelineDot variant="outlined" color=""/>
+                                <TimelineDot variant="outlined"/>
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
@@ -73,7 +73,7 @@ class Education extends React.Component {
                                 <Typography color="textSecondary">2018</Typography>
                             </TimelineOppositeContent>
                             <TimelineSeparator>
-                                <TimelineDot variant="outlined" color=""/>
+                                <TimelineDot variant="outlined" />
                             </TimelineSeparator>
                             <TimelineContent>
                             <Paper elevation={2} className="paper">

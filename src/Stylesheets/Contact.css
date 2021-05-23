@@ -1,0 +1,28 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inputField{
+    width: 70%;
+    background-color: #fff;
+    max-width: 500px;
+}
+.margin{
+    margin: 15px 0;
+}
+.message{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+.submitButton{
+    width: 35%;
+    max-width: 300px;
+}
+.buttonMargin{
+    margin: 0px 0 30px 0;
+}
