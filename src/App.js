@@ -1,9 +1,12 @@
-import './Stylesheets/App.css';
+import Header from './Components/Header';
+import "./Stylesheets/App.css";
+import Hero from './Components/Hero';
 
 function App() {
   return (
     <div className="App">
-      <p>Anirudh Mahajan</p>
+      <Header />
+      <Hero />
     </div>
   );
 }

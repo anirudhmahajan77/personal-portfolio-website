@@ -1,0 +1,97 @@
+.hero{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    clear: both;
+}
+.image{
+    width: 340px;
+    height: 340px;
+    background-image: url("../Assets/ani.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	animation: morph 8s ease-in-out infinite 1s;
+	background-blend-mode: multiply;
+	-webkit-box-shadow: inset 0 0 0 9px rgba(255, 255, 255, .3);
+	-moz-box-shadow: inset 0 0 0 9px rgba(255, 255, 255, .3);
+	box-shadow: inset 0 0 0 9px rgba(255, 255, 255, .3)
+}
+@keyframes morph {
+	0% {
+		border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+	}
+	50% {
+		border-radius: 30% 60% 70% 40%/50% 60% 30% 60%
+	}
+	100% {
+		border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+	}
+}
+.intro{
+    font-family: 'Montserrat', sans-serif;
+}
+.name{
+    font-size: 70px;
+}
+.headline{
+    font-size: larger;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1100px) {
+    .hero{
+        height: 400px;
+    }
+    .image{
+        width: 280px;
+        height: 280px;
+    }
+    .intro{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: left;
+        clear: both;
+    }
+    .name{
+        font-size: 42px;
+    }
+    .headline{
+        text-align: left;
+        margin-top: 10px;
+        width: 100%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .hero{
+        flex-direction: column;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .image{
+        width: 280px;
+        height: 280px;
+    }
+    .intro{
+        margin: 20px 10px 0 10px !important;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        clear: both;
+    }
+    .name{
+        text-align: center;
+        font-size: 32px !important;
+    }
+    .headline{
+        text-align: center !important;
+        font-size: 16px !important;
+    }
+}

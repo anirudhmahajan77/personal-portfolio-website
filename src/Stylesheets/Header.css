@@ -1,0 +1,116 @@
+.header{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px 30px 40px;
+}
+.header::after {
+    clear: both;
+}
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 800;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    width: 350px;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    justify-content: space-between;
+}
+.downloadLink{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 8px 8px 8px 8px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.downloadLink:visited {
+    color: #000;
+}
+.downloadLink:hover{
+    background-color: #1E1C1C;
+    color: azure;
+    transition: all 0.3s ease-in-out;
+}
+.downloadLink:active {
+    color: azure;
+}
+.burger{
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 50px;
+}
+.cross{
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 50px;
+}
+
+@media screen and (max-width:900px) {
+    .menu{
+        padding-top: 15px;
+        flex-direction: column;
+        position: absolute;
+        top: 55px;
+        right: 8%;
+        width: 100wh;
+        display: none;
+    }
+    .burger{
+        display: inline-block;
+    }
+    .burgerIcon{
+        transform: scale(1.4);
+    }
+    .crossIcon{
+        transform: scale(1.4);
+    }
+    .social{
+        width: 100%;
+        padding: 20px 5px 20px 5px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #c3c3c3;
+        height: 90px;
+    }
+    .downloadLink{
+        font-size: large;
+    }
+}
+.show{
+    display: flex !important;
+}
+.hide{
+    display: none !important;
+}
+.materialMenu{
+    margin-top: -44%;
+    margin-left: 27%;
+    width: 100%;
+}
+.menuItem{
+    margin: 0 10px 0 20px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    padding-bottom: 0px;
+    width: auto;
+}

@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon{
+    font-size: x-large;
+}
+.link{
+    text-decoration: none;
+    color: #000000;
+    transform: scale(1.2);
+}
+link:visited {
+    color: #000;
+}
+.link:hover{
+    color: #000;
+}
+.link:active {
+    color: #000;
+}
+
+@media screen and (max-width:900px){
+    .container{
+        width: 80%;
+    }
+    .link{
+        transform: scale(1.4);
+    }
+}
