@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Stylesheets/Hero.css';
+import "../Stylesheets/Header.css";
 import ani from '../Assets/ani.jpg';
 
 class Hero extends React.Component{
@@ -11,7 +12,8 @@ class Hero extends React.Component{
                 </div>
                 <div className="intro">
                     <h1 className="name">Anirudh Mahajan</h1>
-                    <h3 className="headline">A Certified Full-Stack developer based in India.<br/>With a passion to create amazing Web Apps and Mobile Apps!</h3>
+                    <h3 className="headline">I build amazing mobile and web apps.<br/>With a passion to serve great user experiences!</h3>
+                    <a href="/Resume.pdf" className="downloadLink" download>Download My Resume!</a>
                 </div>
             </div>
         )

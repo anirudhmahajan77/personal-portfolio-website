@@ -11,8 +11,8 @@ class About extends React.Component {
                         <h2 className="aboutHeadline">Fun facts about me</h2>
                     </div>
                     <div>
-                        <p className="aboutDescription">I live for food. My favorite number is 77. A huge fan of Basketball and I play video games like its my life.
-                        And talking about my professional work, I am a great learner and I can easily adapt to new technologies.
+                        <p className="aboutDescription">I live for food and tech. My favorite number is 77. A huge fan of Basketball and I play video games like its my life.
+                        And talking about my professional work, I make amazing apps and I can easily adapt to new technologies.
                         I can work with several frameworks in React and Java and I am working to fine tune my skills for a better performance.
                     </p>
                     </div>
