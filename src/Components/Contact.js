@@ -50,7 +50,7 @@ class Contact extends React.Component {
         return (
             <div>
                 <div>
-                    <p className="message">Have a query?<br />Let's Connect.</p>
+                    <p className="message">Have a query?<br />Contact Me.</p>
                 </div>
                 <div>
                     <form
