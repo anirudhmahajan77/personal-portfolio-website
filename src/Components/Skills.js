@@ -1,6 +1,5 @@
 import React from 'react';
 import "../Stylesheets/Skills.css";
-import Rating from '@material-ui/lab/Rating';
 
 class Skills extends React.Component {
 
@@ -65,7 +64,6 @@ class Skills extends React.Component {
                     {this.state.skillsOne.map((skill) => {
                         return (<div className="singleSkill" key={skill.id}>
                             <p className="skillName">{skill.name}</p>
-                            <Rating name="read-only" precision={0.5} value={skill.rating} readOnly size="medium" />
                         </div>)
                     })}
                     </div>
@@ -73,7 +71,6 @@ class Skills extends React.Component {
                     {this.state.skillsTwo.map((skill) => {
                         return (<div className="singleSkill" key={skill.id}>
                             <p className="skillName">{skill.name}</p>
-                            <Rating name="read-only" precision={0.5} value={skill.rating} readOnly size="medium" />
                         </div>)
                     })}
                     </div>
