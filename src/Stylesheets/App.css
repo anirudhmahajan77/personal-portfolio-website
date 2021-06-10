@@ -3,7 +3,20 @@
     margin: 0;
     padding: 0;
 }
+.light{
+    --text: #111111;
+    --background: #f8f8f8;
+    --botton-border: #1E1C1C;
+    --footer-color: #ffffff;
+}
+.dark{
+    --text:#f8f8f8;
+    --background: #121212;
+    --button-border: #f8f8f8;
+    --footer-color: #1f1f1f;
+}
 .App{
-    background-color: #f8f8f8;
+    background-color: var(--background);
+    color: var(--text);
     width: 100%;
 }

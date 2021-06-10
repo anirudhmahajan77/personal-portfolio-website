@@ -19,7 +19,7 @@ class Education extends React.Component {
                     <Timeline align="left">
                         <TimelineItem>
                             <TimelineOppositeContent>
-                                <Typography color="textSecondary">2021-2023</Typography>
+                                <Typography>2021-2023</Typography>
                             </TimelineOppositeContent>
                             <TimelineSeparator>
                                 <TimelineDot variant="outlined"/>
@@ -36,7 +36,7 @@ class Education extends React.Component {
                         </TimelineItem>
                         <TimelineItem>
                             <TimelineOppositeContent>
-                                <Typography color="textSecondary">2019-2020</Typography>
+                                <Typography>2019-2020</Typography>
                             </TimelineOppositeContent>
                             <TimelineSeparator>
                                 <TimelineDot variant="outlined"/>
@@ -53,7 +53,7 @@ class Education extends React.Component {
                         </TimelineItem>
                         <TimelineItem>
                             <TimelineOppositeContent>
-                                <Typography color="textSecondary">2018-2021</Typography>
+                                <Typography>2018-2021</Typography>
                             </TimelineOppositeContent>
                             <TimelineSeparator>
                                 <TimelineDot variant="outlined"/>
@@ -70,7 +70,7 @@ class Education extends React.Component {
                         </TimelineItem>
                         <TimelineItem>
                             <TimelineOppositeContent>
-                                <Typography color="textSecondary">2018</Typography>
+                                <Typography>2018</Typography>
                             </TimelineOppositeContent>
                             <TimelineSeparator>
                                 <TimelineDot variant="outlined" />

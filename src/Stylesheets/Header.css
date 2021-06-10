@@ -31,19 +31,21 @@
 .downloadLink{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: #000000;
-    border: 2px solid black;
+    color: var(--text);
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--button-border);
     border-radius: 4px;
     padding: 8px 8px 8px 8px;
     font-size: 13px;
     font-weight: 500;
 }
 .downloadLink:visited {
-    color: #000;
+    color: var(--text);
 }
 .downloadLink:hover{
-    background-color: #1E1C1C;
-    color: azure;
+    background-color: var(--text);
+    color: var(--background);
     transition: all 0.3s ease-in-out;
 }
 .downloadLink:active {
@@ -60,6 +62,16 @@
     position: absolute;
     top: 35px;
     right: 50px;
+}
+.themeButton{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+.themeToggle{
+    margin-left: 20%;
 }
 
 @media screen and (max-width:900px) {

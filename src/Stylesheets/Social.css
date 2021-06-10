@@ -11,14 +11,14 @@
 }
 .link{
     text-decoration: none;
-    color: #000000;
+    color: var(--text);
     transform: scale(1.2);
 }
 link:visited {
     color: #000;
 }
 .link:hover{
-    color: #000;
+    color: var(--text);
 }
 .link:active {
     color: #000;
