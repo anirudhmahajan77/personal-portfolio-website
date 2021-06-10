@@ -1,5 +1,14 @@
 import React from 'react';
 import "../Stylesheets/Skills.css";
+import reactIcon from "../Assets/react.png";
+import javaIcon from "../Assets/java.webp";
+import javaScriptIcon from "../Assets/javascript.png";
+import postgreSQLIcon from "../Assets/postgres.png";
+import herokuIcon from "../Assets/heroku.webp";
+import springIcon from "../Assets/spring.png";
+import cssIcon from "../Assets/css.png";
+import springCloudIcon from "../Assets/springcloud.png";
+import firebaseIcon from "../Assets/firebase.png";
 
 class Skills extends React.Component {
 
@@ -10,44 +19,64 @@ class Skills extends React.Component {
                 {
                     "id": 1,
                     "name": "React Js",
-                    "rating": 4.0
+                    "image": reactIcon,
+                    "imageAlt": "React Js Skill"
                 },
                 {
                     "id": 2,
                     "name": "Java",
-                    "rating": 4.0
+                    "image": javaIcon,
+                    "imageAlt": "Java Skill"
                 },
                 {
                     "id": 3,
                     "name": "Javascript",
-                    "rating": 4.5
+                    "image": javaScriptIcon,
+                    "imageAlt": "JavaScript Skill"
                 },
                 {
                     "id": 4,
                     "name": "CSS",
-                    "rating": 3.5
+                    "image": cssIcon,
+                    "imageAlt": "CSS Skill"
+                },
+                {
+                    "id": 5,
+                    "name": "Firebase",
+                    "image": firebaseIcon,
+                    "imageAlt": "Firebase Skill"
                 }
             ],
             skillsTwo: [
                 {
-                    "id": 5,
-                    "name": "Spring Boot",
-                    "rating": 3.5
-                },
-                {
                     "id": 6,
-                    "name": "Spring Cloud",
-                    "rating": 3.0
+                    "name": "Spring Boot",
+                    "image": springIcon,
+                    "imageAlt": "Spring Boot Skill"
                 },
                 {
                     "id": 7,
-                    "name": "React Native",
-                    "rating": 3.5
+                    "name": "Spring Cloud",
+                    "image": springCloudIcon,
+                    "imageAlt": "Spring Skill"
                 },
                 {
                     "id": 8,
+                    "name": "React Native",
+                    "image": reactIcon,
+                    "imageAlt": "React Native Skill"
+                },
+                {
+                    "id": 9,
                     "name": "SQL",
-                    "rating": 3.0
+                    "image": postgreSQLIcon,
+                    "imageAlt": "PostgreSQL Skill"
+                },
+                {
+                    "id": 10,
+                    "name": "Heroku",
+                    "image": herokuIcon,
+                    "imageAlt": "Heroku Server Skill"
                 }
             ]
         }
@@ -63,6 +92,7 @@ class Skills extends React.Component {
                     <div className="skills">
                     {this.state.skillsOne.map((skill) => {
                         return (<div className="singleSkill" key={skill.id}>
+                            <img src={skill.image} alt={skill.imageAlt} height="35px" className="skillImage" />
                             <p className="skillName">{skill.name}</p>
                         </div>)
                     })}
@@ -70,6 +100,7 @@ class Skills extends React.Component {
                     <div>
                     {this.state.skillsTwo.map((skill) => {
                         return (<div className="singleSkill" key={skill.id}>
+                            <img src={skill.image} alt={skill.imageAlt} height="35px" className="skillImage" />
                             <p className="skillName">{skill.name}</p>
                         </div>)
                     })}
