@@ -14,10 +14,6 @@ export class Projects extends Component {
                     technology: ["Java", "Spring Boot", "Swagger", "PostgreSQL"],
                     links: [
                         {
-                            linkName: "Web Link",
-                            linkURL: "#",
-                        },
-                        {
                             linkName: "Github",
                             linkURL: "https://github.com/anirudhmahajan77/trelloquora",
                         }
@@ -29,10 +25,6 @@ export class Projects extends Component {
                     name: "Ecommerce",
                     technology: ["Java", "Spring Boot", "JPA", "PostgreSQL"],
                     links: [
-                        {
-                            linkName: "Web Link",
-                            linkURL: "#",
-                        },
                         {
                             linkName: "Github Frontend",
                             linkURL: "https://github.com/anirudhmahajan77/ecommerce-frontend",
