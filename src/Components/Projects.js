@@ -22,7 +22,7 @@ export class Projects extends Component {
                             linkURL: "https://www.google.com/",
                         }
                     ],
-                    accent: "#fffad1",
+                    accent: "#f5bf99",
                 },
                 {
                     key: 2,
@@ -73,7 +73,7 @@ export class Projects extends Component {
                             linkURL: "https://www.google.com/",
                         }
                     ],
-                    accent: "#f5bf99",
+                    accent: "#fffad1",
 
                 },
                 {
