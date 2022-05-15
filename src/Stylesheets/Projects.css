@@ -1,0 +1,46 @@
+.projectSection{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100wh;
+}
+.projectHeadline{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+.projectHolder{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items:center;
+    
+    padding-top: 50px;
+}
+.projectOneHolder{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items:baseline;
+}
+.fix{
+    margin-top: 40px;
+}
+
+@media screen and (max-width:900px) {
+    .projectOneHolder{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:700px) {
+    
+}
