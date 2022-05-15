@@ -14,7 +14,7 @@ export class ProjectCard extends Component {
               <p className="sectionTitle">Techonologies Used:</p>
               <div>
                     {this.props.project.technology.map((tech, index) => {
-                        return <p className='tech'>{tech}</p>
+                        return <p className='tech' key={index}>{tech}</p>
                     })}
               </div>
           </div>
@@ -22,7 +22,7 @@ export class ProjectCard extends Component {
               <p className="sectionTitle">Links</p>
               <div>
                   {this.props.project.links.map((link, index) => {
-                      return <a href={link.linkURL} className="webLink" target="_blank" rel="noreferrer">{link.linkName}</a>
+                      return <a href={link.linkURL} key={index} className="webLink" target="_blank" rel="noreferrer">{link.linkName}</a>
                     })}
                 
               </div>

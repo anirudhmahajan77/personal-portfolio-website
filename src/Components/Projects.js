@@ -9,6 +9,7 @@ export class Projects extends Component {
         this.state = {
             projectOne: [
                 {
+                    key: 1,
                     name: "Trello Quora",
                     technology: ["Java", "Spring Boot", "Swagger", "PostgreSQL"],
                     links: [
@@ -24,6 +25,7 @@ export class Projects extends Component {
                     accent: "#fffad1",
                 },
                 {
+                    key: 2,
                     name: "Ecommerce",
                     technology: ["Java", "Spring Boot", "JPA", "PostgreSQL"],
                     links: [
@@ -43,6 +45,7 @@ export class Projects extends Component {
                     accent: "#f5e6db",
                 },
                 {
+                    key: 3,
                     name: "CU Tell",
                     technology: ["React Native", "Firebase", "JavaScript", "Expo"],
                     links: [
@@ -57,6 +60,7 @@ export class Projects extends Component {
             ],
             projectTwo: [
                 {
+                    key: 4,
                     name: "OpenSky",
                     technology: ["React JS", "WeatherAPI", "JavaScript", "Material UI"],
                     links: [
@@ -73,6 +77,7 @@ export class Projects extends Component {
 
                 },
                 {
+                    key: 5,
                     name: "StudentSaga",
                     technology: ["Adobe XD"],
                     links: [
@@ -88,6 +93,7 @@ export class Projects extends Component {
                     accent: "#c6b8ff",
                 },
                 {
+                    key: 6, 
                     name: "Chakravyuh",
                     technology: ["React Native", "Crypto JS", "JavaScript", "Expo"],
                     links: [
@@ -113,13 +119,13 @@ export class Projects extends Component {
                 <div className="projectHolder">
                     <div className="projectOneHolder">
                         {this.state.projectOne.map((project, index) => {
-                            return <ProjectCard project={project} />
+                            return <ProjectCard key={project.key} project={project} />
                         })}
                     </div>
                     
                     <div className="projectOneHolder">
                         {this.state.projectTwo.map((project, index) => {
-                            return <ProjectCard project={project} />
+                            return <ProjectCard key={project.key} project={project} />
                         })}
                     </div>
                 </div>
