@@ -15,11 +15,11 @@ export class Projects extends Component {
                     links: [
                         {
                             linkName: "Web Link",
-                            linkURL: "https://www.google.com/",
+                            linkURL: "#",
                         },
                         {
                             linkName: "Github",
-                            linkURL: "https://www.google.com/",
+                            linkURL: "https://github.com/anirudhmahajan77/trelloquora",
                         }
                     ],
                     accent: "#f5bf99",
@@ -31,15 +31,15 @@ export class Projects extends Component {
                     links: [
                         {
                             linkName: "Web Link",
-                            linkURL: "https://www.google.com/",
+                            linkURL: "#",
                         },
                         {
                             linkName: "Github Frontend",
-                            linkURL: "https://www.google.com/",
+                            linkURL: "https://github.com/anirudhmahajan77/ecommerce-frontend",
                         },
                         {
                             linkName: "Github Backend",
-                            linkURL: "https://www.google.com/",
+                            linkURL: "https://github.com/anirudhmahajan77/ecommerce-backend",
                         }
                     ],
                     accent: "#f5e6db",
@@ -51,7 +51,7 @@ export class Projects extends Component {
                     links: [
                         {
                             linkName: "Github",
-                            linkURL: "https://www.google.com/",
+                            linkURL: "https://github.com/anirudhmahajan77/cutell",
                         }
                     ],
                     accent: "#ddebf8",
@@ -66,11 +66,11 @@ export class Projects extends Component {
                     links: [
                         {
                             linkName: "Web Link",
-                            linkURL: "https://www.google.com/",
+                            linkURL: "https://openskyani.netlify.app/",
                         },
                         {
                             linkName: "Github",
-                            linkURL: "https://www.google.com/",
+                            linkURL: "https://github.com/anirudhmahajan77/opensky",
                         }
                     ],
                     accent: "#fffad1",
@@ -83,11 +83,11 @@ export class Projects extends Component {
                     links: [
                         {
                             linkName: "Prototype",
-                            linkURL: "https://www.google.com/",
+                            linkURL: "https://xd.adobe.com/view/42772e02-84ce-4e70-9319-c8a2e03880a0-1724/",
                         },
                         {
                             linkName: "Wireframes",
-                            linkURL: "https://www.google.com/",
+                            linkURL: "https://drive.google.com/drive/folders/1kW0SS4Z7Nwv0pVF-HBnUep4w7xZSSLvk?usp=sharing",
                         }
                     ],
                     accent: "#c6b8ff",
@@ -98,13 +98,9 @@ export class Projects extends Component {
                     technology: ["React Native", "Crypto JS", "JavaScript", "Expo"],
                     links: [
                         {
-                            linkName: "Prototype",
-                            linkURL: "https://www.google.com/",
+                            linkName: "Github",
+                            linkURL: "https://github.com/anirudhmahajan77/textencryptor",
                         },
-                        {
-                            linkName: "Wireframes",
-                            linkURL: "https://www.google.com/",
-                        }
                     ],
                     accent: "#e0f0e5",
                 }
